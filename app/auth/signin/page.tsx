@@ -1,12 +1,10 @@
 import Link from 'next/link';
-import Image from "next/image";
+import Adminlogo from '@/app/components/admin_logo';
 
 const SignIn = () => {
     return ( 
         <div className="h-screen flex flex-col items-center justify-center mt-auto">
-            <div className="rounded-full p-10 bg-primary m-2">
-                
-            </div>
+            <Adminlogo />
             <div className="text-center">
                 <p className="text-4xl font-bold uppercase">Admin Login</p>
             </div>
@@ -22,7 +20,7 @@ const SignIn = () => {
                     <input type="password" className="border border-gray-400 rounded-lg p-3 px-4 py-4 w-full" placeholder="Your special code"/>
                 </div>
                 <Link href='/dashboard'>
-                    <button className="rounded-md bg-primary hover:bg-primary-hovered text-white p-5 w-full mt-12 mb-3">Sign Up</button>
+                    <button className="rounded-md bg-primary hover:bg-primary-hovered text-white p-5 w-full mt-12 mb-3">Log in</button>
                 </Link>
             </div>
         </div>
