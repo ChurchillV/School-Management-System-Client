@@ -15,7 +15,7 @@ export default function DashBoardLayout({ children } : { children : React.ReactN
                 <div className="min-h-screen">
                     <Sidebar showSidebar={showSidebar} setSidebar={setShowSidebar}/>
                 </div>
-                <div className="flex flex-col w-full">
+                <div className="flex flex-col w-full min-h-screen overflow-y-scroll">
                     <Header 
                         pageName="Dashboard"
                         userName="Jason Sakyi"

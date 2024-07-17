@@ -56,31 +56,31 @@ const Sidebar : React.FC<SidebarProps> = ({ showSidebar, setSidebar }) => {
             <MenuItem 
                 icon = {<PersonIcon />}
                 name='Students'
-                route='/'
+                route='/dashboard/students'
             />
 
             <MenuItem 
                 icon = {<GroupsIcon />}
                 name='Tutors'
-                route='/'
+                route='/dashboard/tutors'
             />
 
             <MenuItem 
                 icon = {<SchoolIcon />}
                 name='Classes'
-                route='/'
+                route='/dashboard/classes'
             />
 
             <MenuItem 
                 icon = {<NotificationsIcon />}
                 name='Notifications'
-                route='/'
+                route='/dashboard/notifications'
             />
 
             <MenuItem 
                 icon = {<Settings />}
                 name='Settings'
-                route='/'
+                route='/dashboard/settings'
             />
         </div>
      );

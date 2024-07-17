@@ -43,7 +43,22 @@ const Dashboard = () => {
                     <div className="text-sm hover:text-primary hover:cursor-pointer">Comments</div>
                 </div>
             </div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-10 h-96 overflow-y-scroll">
+                    <QuizNotification 
+                        content="Quiz on Physics 202 scheduled for next Monday." 
+                        subject="Johnson Howard" 
+                        role="tutor" 
+                    />
+                    <QuizNotification 
+                        content="Quiz on Physics 202 scheduled for next Monday." 
+                        subject="Johnson Howard" 
+                        role="tutor" 
+                    />
+                    <QuizNotification 
+                        content="Quiz on Physics 202 scheduled for next Monday." 
+                        subject="Johnson Howard" 
+                        role="tutor" 
+                    />
                     <QuizNotification 
                         content="Quiz on Physics 202 scheduled for next Monday." 
                         subject="Johnson Howard" 
