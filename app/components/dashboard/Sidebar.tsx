@@ -43,7 +43,7 @@ const Sidebar : React.FC<SidebarProps> = ({ showSidebar, setSidebar }) => {
     }
 
     return ( 
-        <div className='h-screen overflow-y-scroll flex flex-col items-center pr-10 border-r border-r-primary-hovered bg-white'>
+        <div className='h-full overflow-y-scroll flex flex-col items-center pr-10 border-r border-r-primary-hovered bg-white'>
 
             <Adminlogo />
 
