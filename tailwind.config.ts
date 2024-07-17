@@ -16,7 +16,10 @@ const config: Config = {
       colors: {
         "primary" : "#363BBB",
         "primary-hovered" : "#7E84FF",
-        "secondary" : "#B6B9FF"
+        "secondary" : "#B6B9FF",
+        "widget-primary" : "#DCD9FF",
+        "widget-primary-hovered" : "#CCCEFF",
+        "widget-border" : "#636AFF"
       }
     },
   },

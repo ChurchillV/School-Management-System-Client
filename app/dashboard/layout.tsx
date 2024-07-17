@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 
-import Sidebar from "../components/dashboard/sidebar";
-import Header from "../components/dashboard/header";
+import Sidebar from "../components/dashboard/Sidebar";
+import Header from "../components/dashboard/Header";
 
 export default function DashBoardLayout({ children } : { children : React.ReactNode }) {
 
@@ -12,12 +12,18 @@ export default function DashBoardLayout({ children } : { children : React.ReactN
     return (
         <div className="bg-slate-100">
             <div className="flex flex-row">
-                <Sidebar showSidebar={showSidebar} setSidebar={setShowSidebar}/>
+                <div className="min-h-screen">
+                    <Sidebar showSidebar={showSidebar} setSidebar={setShowSidebar}/>
+                </div>
                 <div className="flex flex-col w-full">
-                    <Header />
+                    <Header 
+                        pageName="Dashboard"
+                        userName="Jason Sakyi"
+                        email="jsakyi@gmail.com"
+                        role="Administrator"/>
+                    { children }
                 </div>
             </div>
-            { children }
         </div>
     )
 }

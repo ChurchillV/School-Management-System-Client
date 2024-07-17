@@ -5,10 +5,10 @@ import PersonIcon from '@mui/icons-material/Person';
 import GroupsIcon from '@mui/icons-material/Groups';
 import SchoolIcon from '@mui/icons-material/School';
 import NotificationsIcon from '@mui/icons-material/Notifications';
+import Settings from '@mui/icons-material/Settings';
 import Adminlogo from '../admin_logo';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
 type SidebarProps = {
@@ -74,6 +74,12 @@ const Sidebar : React.FC<SidebarProps> = ({ showSidebar, setSidebar }) => {
             <MenuItem 
                 icon = {<NotificationsIcon />}
                 name='Notifications'
+                route='/'
+            />
+
+            <MenuItem 
+                icon = {<Settings />}
+                name='Settings'
                 route='/'
             />
         </div>

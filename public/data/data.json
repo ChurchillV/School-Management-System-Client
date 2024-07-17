@@ -1,0 +1,59 @@
+{
+    "summaryData": [
+      {
+        "widgetTitle": "Total Students",
+        "totalNumber": 1200
+      },
+      {
+        "widgetTitle": "Total Tutors",
+        "totalNumber": 75
+      },
+      {
+        "widgetTitle": "Total Classes",
+        "totalNumber": 40
+      }
+    ],
+    "notifications": [
+      {
+        "notificationClass": "quiz",
+        "notificationContent": "New quiz results available for Math 101.",
+        "notificationSubject": {
+          "role": "class",
+          "name": "Math 101"
+        }
+      },
+      {
+        "notificationClass": "comment",
+        "notificationContent": "New comment added on your assignment.",
+        "notificationSubject": {
+          "role": "tutor",
+          "name": "Mr. Smith"
+        }
+      },
+      {
+        "notificationClass": "quiz",
+        "notificationContent": "Quiz on Physics 202 scheduled for next Monday.",
+        "notificationSubject": {
+          "role": "tutor",
+          "name": "Ms. Johnson"
+        }
+      },
+      {
+        "notificationClass": "comment",
+        "notificationContent": "Parent has commented on the recent performance report.",
+        "notificationSubject": {
+          "role": "parent",
+          "name": "Mrs. Brown"
+        }
+      },
+      {
+        "notificationClass": "quiz",
+        "notificationContent": "Results for History 303 quiz have been published.",
+        "notificationSubject": {
+          "role": "class",
+          "name": "History 303"
+        }
+      }
+    ]
+  }
+  
